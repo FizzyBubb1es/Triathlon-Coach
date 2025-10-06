@@ -1,18 +1,25 @@
 {
-  "summary": {"weekly_hours_avg": 0, "longest_session_min": 0, "load_trend": "flat|up|down", "notes": "string"},
-  "week_plan": [
-    {
-      "date": "YYYY-MM-DD",
-      "sport": "Ride|Run",
-      "title": "Endurance Z2 | VO2 | Tempo, etc.",
-      "duration_min": 60,
-      "target_zone": "Z1/Z2/Z3/Z4/Z5",
-      "intervals": "e.g., 4×5' @ Z4 (2' easy)",
-      "description": "purpose and how it should feel",
-      "fueling": "e.g., 40–60g carbs/hr + 500–750ml water/hr",
-      "route_url": "",
-      "route_type": "trainer_erg|flat|rolling|climbs"
-    }
-  ],
-  "totals": {"planned_minutes": 0, "hard_sessions": 0, "rest_days": 1}
+  "plan": {
+    "summary": {
+      "weekly_hours_avg": 0,
+      "longest_session_min": 0,
+      "load_trend": "flat|up|down",
+      "notes": "string"
+    },
+    "week_plan": [
+      {
+        "date": "YYYY-MM-DD",
+        "sport": "Ride|Run",
+        "title": "Endurance Z2 | VO2 | Tempo, etc.",
+        "duration_min": 60,
+        "target_zone": "Z1|Z2|Z3|Z4|Z5",
+        "intervals": "e.g., 4×5' @ Z4 (2' easy)",
+        "description": "purpose and how it should feel",
+        "fueling": "e.g., 40–60g carbs/hr + 500–750ml water/hr",
+        "route_url": "",
+        "route_type": "trainer_erg|flat|rolling|climbs"
+      }
+    ],
+    "totals": { "planned_minutes": 0, "hard_sessions": 0, "rest_days": 1 }
+  }
 }
